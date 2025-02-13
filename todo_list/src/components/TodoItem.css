@@ -1,0 +1,32 @@
+.todo-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.todo-item:last-child {
+    border-bottom: none;
+}
+
+.todo-item input[type="checkbox"] {
+    margin-right: 10px;
+}
+.todo-text{
+  flex-grow:1;
+}
+
+.todo-item.completed span {
+    text-decoration: line-through;
+    color: #aaa;
+}
+
+.delete-button{
+    background:none;
+    border: none;
+    color: #ff4d4d;
+    cursor: pointer;
+}
+.delete-button:hover{
+    color: #c42e2e;
+}
