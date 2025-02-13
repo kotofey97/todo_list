@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import TodoList from './components/TodoList';
 import './App.css';
 
-function App() {
+export default function App() {
     const [todos, setTodos] = useState([]);
     const [newTodo, setNewTodo] = useState('');
 
@@ -44,5 +44,3 @@ function App() {
         </div>
     );
 }
-
-export default App;

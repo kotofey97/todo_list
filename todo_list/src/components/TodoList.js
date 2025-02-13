@@ -2,7 +2,7 @@ import React from 'react';
 import TodoItem from './TodoItem';
 import './TodoList.css'
 
-function TodoList({ todos, onToggle, onDelete }) {
+export default function TodoList({ todos, onToggle, onDelete }) {
     return (
         <ul className="todo-list">
             {todos.map(todo => (
@@ -16,5 +16,3 @@ function TodoList({ todos, onToggle, onDelete }) {
         </ul>
     );
 }
-
-export default TodoList;
